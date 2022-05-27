@@ -1,0 +1,173 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", light;
+  font-weight: 300;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", Black;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.color-sec {
+  color: #fff;
+  background-color: #F10086;
+
+}
+
+.wt-sec {
+  background-color: #fff;
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 21%;
+  transform: rotate(25deg);
+  margin-top: 10px;
+  position: absolute;
+  right: 20%;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  font-weight: 700;
+}
+
+.testimonial {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+
+#press {
+  padding: 3% 5% 7%;
+}
+
+.logo-img {
+  width: 15%;
+  margin: 0 15px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
+
+/* Footer */
+.ft-icon {
+  margin: 1%
+}
+
+.cp-right {
+  font-family: "Montserrat";
+  font-weight: 300;
+}
